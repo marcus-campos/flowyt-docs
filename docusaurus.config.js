@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Flowyt',
+  tagline: 'The tagline of Flowyt',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,14 +8,14 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Flowyt',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Flowyt Logo',
         src: 'img/logo.svg',
       },
       links: [
         {
-          to: 'docs/basics/introduction',
+          to: 'docs/quick-start/introduction',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -36,7 +36,7 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/basics/introduction',
+              to: 'docs/quick-start/introduction',
             },
             {
               label: 'Second Doc',

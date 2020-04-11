@@ -1,6 +1,8 @@
 module.exports = {
   someSidebar: {
-    Começando: ['basics/introduction', 'basics/create-account', 'doc3'],
-    Funcionalidades: ['mdx'],
+    "Começando": ['quick-start/introduction'],
+    "Template literals": ['quick-start/introduction'],
+    "Ações": ['quick-start/introduction'],
+    "Integrações": ['quick-start/introduction'],
   },
 };
